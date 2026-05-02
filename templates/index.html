@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Utkarsh AI Pro</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="header">
+    🟠 UTKARSH AI PRO
+    <div style="font-size:14px;">🇮🇳 Indian AI Assistant</div>
+</div>
+
+<div id="chatbox"></div>
+
+<div class="inputBox">
+    <input id="userInput" placeholder="Ask something..." onkeypress="if(event.key==='Enter') sendMessage()">
+    <button onclick="sendMessage()">Send</button>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
