@@ -3,6 +3,8 @@ body {
     font-family: Arial, sans-serif;
     background: #000;
     color: white;
+     font-size: 18px;
+    line-height: 1.6;
 }
 
 /* 🔺 TRICOLOUR HEADER */
@@ -20,20 +22,32 @@ body {
     height: 75vh;
     overflow-y: auto;
     padding: 10px;
+    font-size: 16px;
 }
 
 /* USER MESSAGE */
 .user {
+    background: #1f1f1f;
+    color: white;
     text-align: right;
-    margin: 10px;
+     margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 80%;
     color: #ffffff;
 }
 
 /* AI MESSAGE */
 .ai {
+     background: #333;
+    color: white;
     text-align: left;
     margin: 10px;
-    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 80%;
 }
 
 /* ⌨️ INPUT AREA */
@@ -48,6 +62,7 @@ input {
     padding: 10px;
     border: none;
     outline: none;
+    font-size: 16px;
 }
 
 button {
@@ -56,6 +71,7 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    font-size: 16px;
 }
 
 button:hover {
