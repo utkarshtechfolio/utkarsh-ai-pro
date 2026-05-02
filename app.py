@@ -14,7 +14,7 @@ import os
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL = "llama3-8b-8192"
+MODEL = "llama3-8b-instant"
 
 SYSTEM_PROMPT = """
 You are Utkarsh AI Pro 🇮🇳
